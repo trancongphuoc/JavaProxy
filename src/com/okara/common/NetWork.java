@@ -14,7 +14,7 @@ public class NetWork {
 		new Thread() {
 			public void run() {
 				try {
-					URL u = new URL("http://203.162.76.17:9201/writelog");
+					URL u = new URL("http://x.x.x.x:xxxx/writelog");
 					HttpURLConnection conn = (HttpURLConnection) u.openConnection();
 					conn.setDoOutput(true);
 					conn.setDoInput(true);
